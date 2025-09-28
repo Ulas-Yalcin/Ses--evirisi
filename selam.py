@@ -42,7 +42,7 @@ class SesKaydedici:
         self.start_btn = tk.Button(
             root, text="⏺️ Kaydı Başlat",
             command=self.kaydi_baslat,
-            bg="#e74c3c", fg="white", font=("Arial", 14, "bold"),
+            bg="#4ae73c", fg="white", font=("Arial", 14, "bold"),
             width=20
         )
         self.start_btn.pack(pady=10)
@@ -51,7 +51,7 @@ class SesKaydedici:
         self.stop_btn = tk.Button(
             root, text="⏹️ Kaydı Durdur",
             command=self.kaydi_durdur,
-            bg="#27ae60", fg="white", font=("Arial", 14, "bold"),
+            bg="#ae2727", fg="white", font=("Arial", 14, "bold"),
             width=20
         )
         self.stop_btn.pack(pady=10)
@@ -189,3 +189,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = SesKaydedici(root)
     root.mainloop()
+    
+    
+    print("Program sonlandırıldı.")

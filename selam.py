@@ -11,7 +11,7 @@ class SesKaydedici:
     def __init__(self, root):
         self.root = root
         self.root.title("🎙️ Ses Kaydedici")
-        self.root.geometry("600x600")
+        self.root.geometry("600x700")
         self.root.config(bg="#2c2f33")
 
         # Değişkenler

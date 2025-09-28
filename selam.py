@@ -193,3 +193,4 @@ if __name__ == "__main__":
     
     print("Program sonlandırıldı.")
     print("Teşekkürler! ")
+    print("Yalçın Yalçınkaya")
